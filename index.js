@@ -5,9 +5,8 @@
 // confirm(deadDead);
 // const result = prompt(deadDeadDed);
 // console.log(result);
-
-// console.log(0.14 + 0.88);
-// console.log((0.14 + 0.88).toFixed(99));
+// console.log(0.14 + 0.8);
+// console.log((0.14 + 0.8).toFixed(2));
 
 //! Рандомное числецо в консольку
 // const random = Math.random() * (100 - 1) + 1;
