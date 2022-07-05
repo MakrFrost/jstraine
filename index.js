@@ -42,16 +42,26 @@
 // console.log(text.toUpperCase());
 
 //! &&(false)
-const randomAge = Math.random() * (100 - 1) + 1;
-console.log(randomAge.toFixed(0) && 10); //Остановка на правом(последнем) всегда = false
-console.log(0 && randomAge.toFixed(0)); //false
+// const randomAge = Math.random() * (100 - 1) + 1;
+// console.log(randomAge.toFixed(0) && 10); //Остановка на правом(последнем) всегда = false
+// console.log(0 && randomAge.toFixed(0)); //false
 
 //! ||(true)
-console.log(0 || randomAge.toFixed(0)); //возраст больше нуля, тобишь = true
-console.log(randomAge.toFixed(0) < 100 || randomAge.toFixed(0) > 100); //true
-console.log(randomAge.toFixed(0) || false);
-console.log(15 || true); // 15
+// console.log(0 || randomAge.toFixed(0)); //возраст больше нуля, тобишь = true
+// console.log(randomAge.toFixed(0) < 100 || randomAge.toFixed(0) > 100); //true
+// console.log(randomAge.toFixed(0) || false);
+// console.log(15 || true); // 15
 
 //!(reverse)
-console.log(!randomAge.toFixed(0));
-console.log(!0);
+// console.log(!randomAge.toFixed(0));
+// console.log(!0);
+
+//! Покупка рандомного кол-ва дроидов с фикс ценой и выводом в логе полной стоимости заказа
+// const pricePerDroid = 800;
+// const orderedQuantity = Math.random() * (100 - 1) + 1;
+// const deliveryFee = 50;
+// const totalPrice = pricePerDroid * orderedQuantity.toFixed(0) + deliveryFee;
+
+// const message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`;
+
+// console.log(message);
