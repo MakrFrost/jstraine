@@ -41,3 +41,14 @@
 // const text = `Добро пожаловать ${nameClient[randomNameClient]}! Вы из ${randomNumber} гвардейской ${piece[randomPiece]} армии заглощенковых?`;
 
 // console.log(text.toUpperCase());
+
+//! &&(false)
+const randomAge = Math.random() * (100 - 1) + 1;
+console.log(randomAge.toFixed(0) && 10); //Остановка на правом(последнем) всегда = false
+console.log(0 && randomAge.toFixed(0)); //false
+
+//! ||(true)
+console.log(0 || randomAge.toFixed(0)); //возраст больше нуля, тобишь = true
+console.log(randomAge.toFixed(0) < 100 || randomAge.toFixed(0) > 100); //true
+
+//!(reverse)
