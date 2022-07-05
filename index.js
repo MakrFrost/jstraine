@@ -50,5 +50,9 @@ console.log(0 && randomAge.toFixed(0)); //false
 //! ||(true)
 console.log(0 || randomAge.toFixed(0)); //возраст больше нуля, тобишь = true
 console.log(randomAge.toFixed(0) < 100 || randomAge.toFixed(0) > 100); //true
+console.log(randomAge.toFixed(0) || false);
+console.log(15 || true); // 15
 
 //!(reverse)
+console.log(!randomAge.toFixed(0));
+console.log(!0);
