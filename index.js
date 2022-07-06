@@ -3,8 +3,10 @@
 // const deadDeadDed = "Вы хотите?";
 // alert(dead);
 // confirm(deadDead);
+
 // const result = prompt(deadDeadDed);
 // console.log(result);
+
 // console.log(0.14 + 0.8);
 // console.log((0.14 + 0.8).toFixed(2));
 
@@ -65,3 +67,44 @@
 // const message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`;
 
 // console.log(message);
+
+//! Номерок в очереди получается
+// let randomNumber = Math.random() * (10 - 1) + 1;
+// let randomNumber2 = Math.random() * (10 - 1) + 1;
+// let randomNumber3 = Math.random() * (10 - 1) + 1;
+
+// function add(a, b, c) {
+//   console.log(`Твой номер в очереди получается: ${a + b + c}`);
+// }
+
+// add(
+//   randomNumber.toFixed(0),
+//   randomNumber2.toFixed(0),
+//   randomNumber3.toFixed(0)
+// );
+
+//
+
+// if (subscription === "free") {
+//   cost = 0;
+// } else if (subscription === "pro") {
+//   cost = 100;
+// } else if (subscription === "premium") {
+//   cost = 500;
+// } else {
+
+//! Проверка возраста
+// const text = "Сколько вам лет?";
+// const result = prompt(text);
+
+// function checkAge(age) {
+//   let message;
+//   if (result >= 18) {
+//     message = "Ты набрал достаточно возраста для входа, проходи.";
+//   } else {
+//     message = "Ты слишком молод, возвращайся через несколько лет.";
+//   }
+
+//   console.log(message);
+// }
+// checkAge();
