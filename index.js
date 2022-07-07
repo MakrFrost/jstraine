@@ -94,17 +94,46 @@
 // } else {
 
 // ! Проверка возраста
-const text = "Сколько вам лет?";
-const result = prompt(text);
+// const text = "Сколько вам лет?";
+// const result = prompt(text);
 
-function checkAge(age) {
-  let message;
-  if (result >= 18) {
-    message = "Ты набрал достаточно возраста для входа, проходи.";
-  } else {
-    message = "Ты слишком молод, возвращайся через несколько лет.";
-  }
+// function checkAge(age) {
+//   let message;
+//   if (result >= 18) {
+//     message = "Ты набрал достаточно возраста для входа, проходи.";
+//   } else {
+//     message = "Ты слишком молод, возвращайся через несколько лет.";
+//   }
 
-  console.log(message);
-}
-checkAge();
+//   console.log(message);
+// }
+// checkAge();
+
+//! Рандомная новость для сми
+// const nameClient = [
+//   "Жмышенко Валерий",
+//   "Антон Палыч Фекалисов",
+//   "Кувшик Набиев",
+//   "Жмых Палаевв",
+//   "Ушат Голизоев",
+//   "Рулон Обоев",
+//   "Грилзат Ашанов",
+//   "Варшат Варусов",
+//   "Атобе Октоберфестов",
+//   "Люсинда Арестовна",
+// ];
+// const randomNameClient = Math.floor(Math.random() * nameClient.length);
+// const random = Math.random() * (228 - 1);
+// const randomNumber = random.toFixed(0);
+// const piece = [
+//   "отдельная геройская снайперская брыгада",
+//   " жмыховская взводная ячейка генерала констЖмыхова",
+//   "iменi Володимира Зеленського",
+//   "отдельный полк тактического назначения `Черноголовка`",
+//   "имени Люськи Арестовны",
+//   "228 полк енотиков полоскунов",
+// ];
+// const randomPiece = Math.floor(Math.random() * piece.length);
+// const text = `Добро пожаловать ${nameClient[randomNameClient]}! Вы из ${randomNumber} гвардейской ${piece[randomPiece]} армии заглощенковых?`;
+
+// console.log(text.toUpperCase());
