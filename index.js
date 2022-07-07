@@ -93,18 +93,18 @@
 //   cost = 500;
 // } else {
 
-//! Проверка возраста
-// const text = "Сколько вам лет?";
-// const result = prompt(text);
+// ! Проверка возраста
+const text = "Сколько вам лет?";
+const result = prompt(text);
 
-// function checkAge(age) {
-//   let message;
-//   if (result >= 18) {
-//     message = "Ты набрал достаточно возраста для входа, проходи.";
-//   } else {
-//     message = "Ты слишком молод, возвращайся через несколько лет.";
-//   }
+function checkAge(age) {
+  let message;
+  if (result >= 18) {
+    message = "Ты набрал достаточно возраста для входа, проходи.";
+  } else {
+    message = "Ты слишком молод, возвращайся через несколько лет.";
+  }
 
-//   console.log(message);
-// }
-// checkAge();
+  console.log(message);
+}
+checkAge();
