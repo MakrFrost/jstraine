@@ -140,7 +140,7 @@
 
 //!Проверка температуры на улице (свич)
 let temp = [1, 2, 3, 4, 5, 6, 7, 8];
-let randomTemp = Math.floor(Math.random() * temp.length);
+let randomTemp = Math.round(Math.random() * temp.length);
 
 let message = "";
 
