@@ -139,37 +139,55 @@
 // console.log(text.toUpperCase());
 
 //!Проверка температуры на улице (свич)
-// let temp = [1, 2, 3, 4, 5, 6, 7, 8];
-// let randomTemp = Math.floor(Math.random() * (temp.length - 1) + 1);
+let temp = [1, 2, 3, 4, 5, 6, 7, 8];
+let randomTemp = Math.floor(Math.random() * temp.length);
 
-// let message = "";
+let message = "";
 
-// switch (randomTemp) {
-//   case 1:
-//     message = "*смотрит из льда*";
-//   case 2:
-//     message = "Мы что, в Антарктиде?";
-//     break;
-//   case 3:
-//     message = "Нужно было теплее одеться, чувак";
-//     break;
-//   case 4:
-//     message = "Слушай, как-то мёрзло!";
-//     break;
-//   case 5:
-//     message = "Довольно таки неплохо.";
-//     break;
-//   case 6:
-//     message = "Неплохая погода для прогулок, правда?";
-//     break;
-//   case 7:
-//     message = "Знойный май нас пропарит, время поло и маек";
-//     break;
-//   case 8:
-//     message = "Чувак, мы в Аду?";
-//     break;
-//   default:
-//     message = "Ну такое, которое можно, а может и нельзя";
+switch (randomTemp) {
+  case 1:
+    message = "*смотрит из льда*";
+  case 2:
+    message = "Мы что, в Антарктиде?";
+    break;
+  case 3:
+    message = "Нужно было теплее одеться, чувак";
+    break;
+  case 4:
+    message = "Слушай, как-то мёрзло!";
+    break;
+  case 5:
+    message = "Довольно таки неплохо.";
+    break;
+  case 6:
+    message = "Неплохая погода для прогулок, правда?";
+    break;
+  case 7:
+    message = "Знойный май нас пропарит, время поло и маек";
+    break;
+  case 8:
+    message = "Чувак, мы в Аду?";
+    break;
+  default:
+    message = "Ну такое, которое можно, а может и нельзя";
+}
+
+console.log(message);
+
+//! Цикл
+// for (let i = 0; i < 10; i += 1) {
+//   console.log(i);
 // }
 
-// console.log(message);
+//! фибоначча
+// function GenerateFibonacci(number) {
+//   var fibonacci = [];
+//   fibonacci[0] = 0;
+//   fibonacci[1] = 1;
+//   for (var i = 2; i < number; i++) {
+//     fibonacci[i] = fibonacci[i - 2] + fibonacci[i - 1];
+//   }
+//   return fibonacci;
+// }
+// var f = GenerateFibonacci(30);
+// console.log(f);
