@@ -137,3 +137,39 @@
 // const text = `Добро пожаловать ${nameClient[randomNameClient]}! Вы из ${randomNumber} гвардейской ${piece[randomPiece]} армии заглощенковых?`;
 
 // console.log(text.toUpperCase());
+
+//!Проверка температуры на улице (свич)
+// let temp = [1, 2, 3, 4, 5, 6, 7, 8];
+// let randomTemp = Math.floor(Math.random() * (temp.length - 1) + 1);
+
+// let message = "";
+
+// switch (randomTemp) {
+//   case 1:
+//     message = "*смотрит из льда*";
+//   case 2:
+//     message = "Мы что, в Антарктиде?";
+//     break;
+//   case 3:
+//     message = "Нужно было теплее одеться, чувак";
+//     break;
+//   case 4:
+//     message = "Слушай, как-то мёрзло!";
+//     break;
+//   case 5:
+//     message = "Довольно таки неплохо.";
+//     break;
+//   case 6:
+//     message = "Неплохая погода для прогулок, правда?";
+//     break;
+//   case 7:
+//     message = "Знойный май нас пропарит, время поло и маек";
+//     break;
+//   case 8:
+//     message = "Чувак, мы в Аду?";
+//     break;
+//   default:
+//     message = "Ну такое, которое можно, а может и нельзя";
+// }
+
+// console.log(message);
