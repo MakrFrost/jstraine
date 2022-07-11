@@ -200,3 +200,9 @@
 
 // console.log(lastElementIndex);
 // console.log(lastElement);
+
+//! .slice с масивом
+const clients = ["Mango", "Ajax", "Poly", "Kiwi"];
+const newClients = clients.slice();
+
+console.log(newClients);
