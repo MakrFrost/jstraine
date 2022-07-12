@@ -268,3 +268,21 @@
 // const d = 7;
 // const result = c + d;
 // console.log(result);
+
+// const str = "abcde";
+// console.log(str[0]);
+// console.log(str[1]);
+// console.log(str[2]);
+
+// const sec = 60;
+// const min = 60;
+// const hrs = 24;
+// const time = sec * min * hrs;
+// console.log(`${sec}:${min}:${hrs}`);
+
+// const str1 = "54";
+// console.log("I have a " + str1 + " old");
+
+const arr = [2, 5, 3, 9];
+const result = arr[0] * arr[1] + arr[2] * arr[3];
+console.log(result);
