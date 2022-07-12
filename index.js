@@ -289,9 +289,11 @@
 
 //! if
 
-const a = -3;
-if (a > 0) {
+const a = 5;
+if (a > 0 && a < 5) {
   console.log("TRUE");
 } else {
   console.log("FALSE");
 }
+
+// 12 tasks
