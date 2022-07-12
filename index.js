@@ -214,13 +214,22 @@
 // arr[5] = 6;
 // console.log(arr);
 
-const users = ["Ваня", "Саня"];
-users[2] = "Оля";
+// const users = ["Ваня", "Саня"];
+// users[2] = "Оля";
+// users[1] = "Петя";
+// users.shift();
+// users.unshift("Маша", "Даша");
+// console.table(users);
 
-users[1] = "Петя";
+// const string = "Ваня,Саня,Оля";
+// console.log(string.split(" "));
 
-users.shift();
+// let str = "12345678900987654321";
+// let arr = str.split("");
+// console.log(arr);
 
-users.unshift("Маша", "Даша");
-
-console.table(users);
+// let sum = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   sum += Number(arr[i]);
+// }
+// console.log(sum);
