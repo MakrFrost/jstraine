@@ -283,6 +283,15 @@
 // const str1 = "54";
 // console.log("I have a " + str1 + " old");
 
-const arr = [2, 5, 3, 9];
-const result = arr[0] * arr[1] + arr[2] * arr[3];
-console.log(result);
+// const arr = [2, 5, 3, 9];
+// const result = arr[0] * arr[1] + arr[2] * arr[3];
+// console.log(result);
+
+//! if
+
+const a = -3;
+if (a > 0) {
+  console.log("TRUE");
+} else {
+  console.log("FALSE");
+}
