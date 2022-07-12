@@ -240,3 +240,31 @@
 // }
 // setTimeout(showName, 0);
 // console.log("Kolya!");
+
+//! задачки
+// const num = 3;
+// console.log(num);
+
+// const a = 10;
+// const b = 2;
+// console.log(a + b);
+// console.log(a - b);
+// console.log(a * b);
+// console.log(a / b);
+
+// const c = 15;
+// const d = 2;
+// const result = c + d;
+// console.log(result);
+
+// const a = 10;
+// const b = 2;
+// const c = 5;
+// console.log(a + b + c);
+
+// const a = 17;
+// const b = 10;
+// const c = a - b;
+// const d = 7;
+// const result = c + d;
+// console.log(result);
