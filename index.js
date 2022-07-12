@@ -233,3 +233,10 @@
 //   sum += Number(arr[i]);
 // }
 // console.log(sum);
+
+//! функции
+function showName() {
+  console.log("Vasya!");
+}
+setTimeout(showName, 0);
+console.log("Kolya!");
