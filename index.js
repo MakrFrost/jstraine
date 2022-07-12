@@ -206,3 +206,21 @@
 // const newClients = clients.slice();
 
 // console.log(newClients);
+
+//!массивы
+// let arr = [1, 2, 3];
+// arr[3] = 4;
+// arr[4] = 5;
+// arr[5] = 6;
+// console.log(arr);
+
+const users = ["Ваня", "Саня"];
+users[2] = "Оля";
+
+users[1] = "Петя";
+
+users.shift();
+
+users.unshift("Маша", "Даша");
+
+console.table(users);
