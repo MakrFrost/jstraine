@@ -352,9 +352,9 @@
 //   console.log("FALSE");
 // }
 
-const string = [1, 2, 3];
-const newString = string[0] + string[1] + string[2];
-console.log(newString);
+// const string = [1, 2, 3];
+// const newString = string[0] + string[1] + string[2];
+// console.log(newString);
 
 // //! начало/середина/конец месяца
 // const randomDay = Math.floor(Math.random() * 31);
@@ -383,3 +383,23 @@ console.log(newString);
 //   message = "Осень, листья опадают, готовимся к зиме!";
 // }
 // console.log(message);
+
+//!массивы
+
+// let a = [1, 2, 3];
+// let b = [4, 5, 6];
+// console.log(a.concat(b));
+// console.log(a.reverse());
+
+// a.push(4, 5, 6);
+// a.unshift(4, 5, 6);
+// console.log(a);
+
+// const lang = ["js", "css", "jq"];
+// const str1 = lang.push();
+// const str2 = lang.pop();
+// console.log(str2);
+
+const a = [1, 2, 3, 4, 5];
+const b = a.slice(3, a.length - 1);
+console.log(b);
