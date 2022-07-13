@@ -352,6 +352,10 @@
 //   console.log("FALSE");
 // }
 
+const string = [1, 2, 3];
+const newString = string[0] + string[1] + string[2];
+console.log(newString);
+
 // //! начало/середина/конец месяца
 // const randomDay = Math.floor(Math.random() * 31);
 // let message = "";
