@@ -421,3 +421,11 @@
 // const a = [3, 4, 1, 2, 7];
 // const b = a.sort();
 // console.log(a);
+
+//! Функции
+function test(x, y, i) {
+  console.log(`KAVO? TAVO! ${x + y + i - (x - y)}`);
+}
+test(2, 3, 26);
+test(1, 5, 6);
+test(2, 2, 4);
