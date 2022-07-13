@@ -400,6 +400,24 @@
 // const str2 = lang.pop();
 // console.log(str2);
 
-const a = [1, 2, 3, 4, 5];
-const b = a.slice(3, a.length - 1);
-console.log(b);
+// const a = [1, 2, 3, 4, 5];
+// const b = a.slice(3, a.length);
+// console.log(b);
+
+// const a = [1, 2, 3, 4, 5];
+// const b = a.slice(0, a.length -2);
+// console.log(b);
+
+// const a = [1, 2, 3, 4, 5];
+// const b = a.splice(1, 2);
+// console.log(a);
+// console.log(b);
+// const b = a.splice(1, 0, 2, 3, 4, 5, 6, 7);
+// const b = a.splice(1, 0, "a", "b");
+// const c = a.splice(6, 0, "c");
+// const d = a.splice(a.length, 0, "e");
+// console.log(a);
+
+// const a = [3, 4, 1, 2, 7];
+// const b = a.sort();
+// console.log(a);
