@@ -288,12 +288,83 @@
 // console.log(result);
 
 //! if
+// const a = 3;
+// const b = 5;
 
-const a = 5;
-if (a > 0 && a < 5) {
-  console.log("TRUE");
-} else {
-  console.log("FALSE");
-}
+// if (a <= 1 || b >= 3) {
+//   console.log(a + b);
+// } else {
+//   console.log(a - b);
+// }
 
-// 12 tasks
+// const a = 24;
+// const b = 15;
+
+// if ((a > 2 && a < 11) || (b >= 6 && b < 14)) {
+//   console.log("TRUE");
+// } else {
+//   console.log("FALSE");
+// }
+
+// //! начало/середина/конец месяца
+// const randomDay = Math.floor(Math.random() * 31);
+// let message = "";
+// if (randomDay <= 10) {
+//   message = `${randomDay} число месяца это его начало!`;
+// } else if (randomDay <= 20 && randomDay >= 10) {
+//   message = `${randomDay} число месяца это уже его середина!`;
+// } else if (randomDay <= 31 && randomDay >= 20) {
+//   message = `${randomDay} число месяца это уже его конец!`;
+// }
+// console.log(message);
+
+//! Зима, весна...
+// const randomMonth = Math.floor(Math.random() * 12);
+// console.log(randomMonth);
+
+// let message = "";
+// if (randomMonth <= 2 || randomMonth === 12) {
+//   message = "Зима, новогодние праздники!";
+// } else if (randomMonth <= 6 && randomMonth >= 3) {
+//   message = "Весна, всё цветёт и пахнет!";
+// } else if (randomMonth <= 9 && randomMonth >= 6) {
+//   message = "Лето, жарко, пойдём на пляж?";
+// } else if (randomMonth <= 12 && randomMonth >= 9) {
+//   message = "Осень, листья опадают, готовимся к зиме!";
+// }
+// console.log(message);
+
+//!Проверка температуры на улице (свич)((усовершен))
+// let temp = [1, 2, 3, 4, 5, 6, 7, 8];
+// let randomTemp = Math.floor(Math.random() * temp.length + 1);
+
+// let message = "";
+
+// switch (randomTemp) {
+//   case 1:
+//     message = "*смотрит из льда*";
+//   case 2:
+//     message = "Мы что, в Антарктиде?";
+//     break;
+//   case 3:
+//     message = "Нужно было теплее одеться, чувак";
+//     break;
+//   case 4:
+//     message = "Слушай, как-то мёрзло!";
+//     break;
+//   case 5:
+//     message = "Довольно таки неплохо.";
+//     break;
+//   case 6:
+//     message = "Неплохая погода для прогулок, правда?";
+//     break;
+//   case 7:
+//     message = "Знойный май нас пропарит, время поло и маек";
+//     break;
+//   case 8:
+//     message = "Чувак, мы в Аду?";
+//     break;
+//   default:
+//     message = "Ну такое, которое можно, а может и нельзя";
+// }
+// console.log(message);
