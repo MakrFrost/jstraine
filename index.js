@@ -171,7 +171,41 @@
 //   default:
 //     message = "Ну такое, которое можно, а может и нельзя";
 // }
+// console.log(message);
 
+//!Проверка температуры на улице (свич)((усовершен))
+// let temp = [1, 2, 3, 4, 5, 6, 7, 8];
+// let randomTemp = Math.floor(Math.random() * temp.length + 1);
+
+// let message = "";
+
+// switch (randomTemp) {
+//   case 1:
+//     message = "*смотрит из льда*";
+//   case 2:
+//     message = "Мы что, в Антарктиде?";
+//     break;
+//   case 3:
+//     message = "Нужно было теплее одеться, чувак";
+//     break;
+//   case 4:
+//     message = "Слушай, как-то мёрзло!";
+//     break;
+//   case 5:
+//     message = "Довольно таки неплохо.";
+//     break;
+//   case 6:
+//     message = "Неплохая погода для прогулок, правда?";
+//     break;
+//   case 7:
+//     message = "Знойный май нас пропарит, время поло и маек";
+//     break;
+//   case 8:
+//     message = "Чувак, мы в Аду?";
+//     break;
+//   default:
+//     message = "Ну такое, которое можно, а может и нельзя";
+// }
 // console.log(message);
 
 //! Цикл
@@ -290,7 +324,6 @@
 //! if
 // const a = 3;
 // const b = 5;
-
 // if (a <= 1 || b >= 3) {
 //   console.log(a + b);
 // } else {
@@ -299,8 +332,21 @@
 
 // const a = 24;
 // const b = 15;
-
 // if ((a > 2 && a < 11) || (b >= 6 && b < 14)) {
+//   console.log("TRUE");
+// } else {
+//   console.log("FALSE");
+// }
+
+// const string = "abcde";
+// if (string[0] === "a") {
+//   console.log("TRUE");
+// } else {
+//   console.log("FALSE");
+// }
+
+// const string = 12345;
+// if ((string === 1, 2, 3)) {
 //   console.log("TRUE");
 // } else {
 //   console.log("FALSE");
@@ -331,40 +377,5 @@
 //   message = "Лето, жарко, пойдём на пляж?";
 // } else if (randomMonth <= 12 && randomMonth >= 9) {
 //   message = "Осень, листья опадают, готовимся к зиме!";
-// }
-// console.log(message);
-
-//!Проверка температуры на улице (свич)((усовершен))
-// let temp = [1, 2, 3, 4, 5, 6, 7, 8];
-// let randomTemp = Math.floor(Math.random() * temp.length + 1);
-
-// let message = "";
-
-// switch (randomTemp) {
-//   case 1:
-//     message = "*смотрит из льда*";
-//   case 2:
-//     message = "Мы что, в Антарктиде?";
-//     break;
-//   case 3:
-//     message = "Нужно было теплее одеться, чувак";
-//     break;
-//   case 4:
-//     message = "Слушай, как-то мёрзло!";
-//     break;
-//   case 5:
-//     message = "Довольно таки неплохо.";
-//     break;
-//   case 6:
-//     message = "Неплохая погода для прогулок, правда?";
-//     break;
-//   case 7:
-//     message = "Знойный май нас пропарит, время поло и маек";
-//     break;
-//   case 8:
-//     message = "Чувак, мы в Аду?";
-//     break;
-//   default:
-//     message = "Ну такое, которое можно, а может и нельзя";
 // }
 // console.log(message);
