@@ -147,6 +147,7 @@
 // switch (randomTemp) {
 //   case 1:
 //     message = "*смотрит из льда*";
+//     break;
 //   case 2:
 //     message = "Мы что, в Антарктиде?";
 //     break;
@@ -429,3 +430,13 @@ function test(x, y, i) {
 test(2, 3, 26);
 test(1, 5, 6);
 test(2, 2, 4);
+
+function boolToWord(bool) {
+  let message = "";
+  if (bool === true) {
+    return (message = "Yes");
+  } else {
+    return (message = "No");
+  }
+}
+console.log(message);
