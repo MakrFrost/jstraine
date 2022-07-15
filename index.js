@@ -424,19 +424,75 @@
 // console.log(a);
 
 //! Функции
-function test(x, y, i) {
-  console.log(`KAVO? TAVO! ${x + y + i - (x - y)}`);
-}
-test(2, 3, 26);
-test(1, 5, 6);
-test(2, 2, 4);
+// function test(x, y, i) {
+//   console.log(`KAVO? TAVO! ${x + y + i - (x - y)}`);
+// }
+// test(2, 3, 26);
+// test(1, 5, 6);
+// test(2, 2, 4);
 
-function boolToWord(bool) {
-  let message = "";
-  if (bool === true) {
-    return (message = "Yes");
-  } else {
-    return (message = "No");
-  }
-}
-console.log(message);
+// function boolToWord(bool) {
+//   let message = "";
+//   if (bool === true) {
+//     return (message = "Yes");
+//   } else {
+//     return (message = "No");
+//   }
+// }
+// console.log(message);
+
+//! Генератор дразнилок
+const body = [
+  "нос",
+  "рука",
+  "нога",
+  "глаза",
+  "пальцы",
+  "спина",
+  "уши",
+  "губы",
+  "щёки",
+];
+const randombody = Math.floor(Math.random() * body.length);
+
+const bodyPiece = [
+  "уродливее",
+  "отвратительнее",
+  "кривее",
+  "темнее",
+  "зажмышенее",
+  "жирнее",
+  "лысее",
+  "большее",
+];
+const randomPiece = Math.floor(Math.random() * bodyPiece.length);
+
+const animal = [
+  "жирафа",
+  "кенгуру",
+  "лисицы",
+  "собаки",
+  "попугая",
+  "куницы",
+  "обезьяны",
+  "ежа",
+  "слона",
+];
+const animalRandom = Math.floor(Math.random() * animal.length);
+
+const animalPiece = [
+  "нос",
+  "рука",
+  "нога",
+  "глаза",
+  "пальцы",
+  "спина",
+  "уши",
+  "губы",
+  "щёки",
+];
+const randomAnimalPiece = Math.floor(Math.random() * animalPiece.length);
+
+const text = `У тебя ${body[randombody]} еще более ${bodyPiece[randomPiece]}, чем ${animalPiece[randomAnimalPiece]} у ${animal[animalRandom]}`;
+
+console.log(text);
