@@ -442,57 +442,103 @@
 // console.log(message);
 
 //! Генератор дразнилок
-const body = [
-  "нос",
-  "рука",
-  "нога",
-  "глаза",
-  "пальцы",
-  "спина",
-  "уши",
-  "губы",
-  "щёки",
-];
-const randombody = Math.floor(Math.random() * body.length);
+// const body = [
+//   "нос",
+//   "рука",
+//   "нога",
+//   "глаза",
+//   "пальцы",
+//   "спина",
+//   "уши",
+//   "губы",
+//   "щёки",
+// ];
+// const randombody = Math.floor(Math.random() * body.length);
 
-const bodyPiece = [
-  "уродливее",
-  "отвратительнее",
-  "кривее",
-  "темнее",
-  "зажмышенее",
-  "жирнее",
-  "лысее",
-  "большее",
-];
-const randomPiece = Math.floor(Math.random() * bodyPiece.length);
+// const bodyPiece = [
+//   "уродливее",
+//   "отвратительнее",
+//   "кривее",
+//   "темнее",
+//   "зажмышенее",
+//   "жирнее",
+//   "лысее",
+//   "большее",
+// ];
+// const randomPiece = Math.floor(Math.random() * bodyPiece.length);
 
-const animal = [
-  "жирафа",
-  "кенгуру",
-  "лисицы",
-  "собаки",
-  "попугая",
-  "куницы",
-  "обезьяны",
-  "ежа",
-  "слона",
-];
-const animalRandom = Math.floor(Math.random() * animal.length);
+// const animal = [
+//   "жирафа",
+//   "кенгуру",
+//   "лисицы",
+//   "собаки",
+//   "попугая",
+//   "куницы",
+//   "обезьяны",
+//   "ежа",
+//   "слона",
+// ];
+// const animalRandom = Math.floor(Math.random() * animal.length);
 
-const animalPiece = [
-  "нос",
-  "рука",
-  "нога",
-  "глаза",
-  "пальцы",
-  "спина",
-  "уши",
-  "губы",
-  "щёки",
-];
-const randomAnimalPiece = Math.floor(Math.random() * animalPiece.length);
+// const animalPiece = [
+//   "нос",
+//   "рука",
+//   "нога",
+//   "глаза",
+//   "пальцы",
+//   "спина",
+//   "уши",
+//   "губы",
+//   "щёки",
+// ];
+// const randomAnimalPiece = Math.floor(Math.random() * animalPiece.length);
 
-const text = `У тебя ${body[randombody]} еще более ${bodyPiece[randomPiece]}, чем ${animalPiece[randomAnimalPiece]} у ${animal[animalRandom]}`;
+// const text = `У тебя ${body[randombody]} еще более ${bodyPiece[randomPiece]}, чем ${animalPiece[randomAnimalPiece]} у ${animal[animalRandom]}`;
 
-console.log(text);
+// console.log(text);
+
+//! цикл for, forin
+// for (let i = 0; i <= 100; i += 1) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// let result = 0;
+// for (let i = 0; i <= 100; i += 1) {
+//   result += i;
+//   console.log(result);
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// for (let i = 0; i < arr.length; i++) {
+//   const result = arr[i];
+//   console.log(result);
+// }
+
+// let arr = [1, 2, 3, 4, 5];
+// let total = 0;
+// for (let i = 0; i < arr.length; i += 1) {
+//   total += arr[i];
+// }
+// console.log(total);
+
+// let arr = [2, 5, 9, 15, 0, 7, 8, 4, 6, 2, 1, 7, 9, 6, 4, 2, 1];
+// let total = 0;
+
+// for (let i = 0; i < arr.length; i += 1) {
+//   if (arr[i] > 3 && arr[i] < 10) {
+//     total += arr[i];
+//   }
+// }
+// console.log(total);
+
+let arr = [2, -5, 9, 15, -0, 7, -8, 4, 6, -2, -1, 7, -9, 6, -4, 2, 1];
+let total = 0;
+
+for (let i = 0; i < arr.length; i += 1) {
+  if (arr[i] > 0) {
+    total += arr[i];
+  }
+}
+console.log(total);
