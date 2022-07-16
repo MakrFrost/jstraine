@@ -533,12 +533,20 @@
 // }
 // console.log(total);
 
-let arr = [2, -5, 9, 15, -0, 7, -8, 4, 6, -2, -1, 7, -9, 6, -4, 2, 1];
-let total = 0;
+// let arr = [2, -5, 9, 15, -0, 7, -8, 4, 6, -2, -1, 7, -9, 6, -4, 2, 1];
+// let total = 0;
+
+// for (let i = 0; i < arr.length; i += 1) {
+//   if (arr[i] > 0) {
+//     total += arr[i];
+//   }
+// }
+// console.log(total);
+
+let arr = [1, 2, 5, 9, 4, 13, 4, 10];
 
 for (let i = 0; i < arr.length; i += 1) {
-  if (arr[i] > 0) {
-    total += arr[i];
+  if (arr[i] === 4) {
+    console.log("EST!");
   }
 }
-console.log(total);
