@@ -543,10 +543,13 @@
 // }
 // console.log(total);
 
-let arr = [1, 2, 5, 9, 4, 13, 4, 10];
+// let arr = [1, 2, 5, 9, 4, 13, 4, 10];
+// for (let i = 0; i < arr.length; i += 1) {
+//   if (arr[i] === 4) {
+//     console.log("EST!");
+//   }
+// }
 
-for (let i = 0; i < arr.length; i += 1) {
-  if (arr[i] === 4) {
-    console.log("EST!");
-  }
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
 }
