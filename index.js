@@ -559,3 +559,33 @@
 //  for (const iterator of object) {
 
 //  }
+
+// const book = {
+//   title: "The Last Kingdom",
+//   author: "Bernard Cornwell",
+//   genres: ["historical prose", "adventure"],
+//   rating: 8.38,
+// };
+// const keys = Object.keys(book);
+
+// for (const key of keys) {
+//   console.log(key);
+//   console.log(book[key]);
+// }
+
+const goods = {
+  apples: 65,
+  grapes: 15,
+  bread: 42,
+  cheese: 71,
+};
+
+const values = Object.values(goods);
+
+let total = 0;
+
+for (const value of values) {
+  total += value;
+}
+
+console.log(total);
