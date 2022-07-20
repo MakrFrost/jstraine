@@ -573,19 +573,16 @@
 //   console.log(book[key]);
 // }
 
-const goods = {
-  apples: 65,
-  grapes: 15,
-  bread: 42,
-  cheese: 71,
-};
+// const goods = {
+//   apples: 65,
+//   grapes: 15,
+//   bread: 42,
+//   cheese: 71,
+// };
 
 const values = Object.values(goods);
-
 let total = 0;
-
 for (const value of values) {
   total += value;
 }
-
 console.log(total);
