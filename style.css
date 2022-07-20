@@ -1,0 +1,40 @@
+body {
+  background-color: bisque;
+}
+
+.field {
+  position: relative;
+
+  height: 600px;
+  width: 600px;
+
+  margin: 50px auto;
+
+  border-radius: 10px;
+  border: 5px solid black;
+  background-color: yellowgreen;
+}
+
+.cell {
+  transition: all 1000ms ease-in-out;
+
+  cursor: pointer;
+
+  box-sizing: border-box;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px solid tomato;
+  border-radius: 20px;
+  font-size: 50px;
+
+  height: 25%;
+  width: 25%;
+
+  background-color: pink;
+}
