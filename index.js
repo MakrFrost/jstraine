@@ -580,9 +580,9 @@
 //   cheese: 71,
 // };
 
-const values = Object.values(goods);
-let total = 0;
-for (const value of values) {
-  total += value;
-}
-console.log(total);
+// const values = Object.values(goods);
+// let total = 0;
+// for (const value of values) {
+//   total += value;
+// }
+// console.log(total);
