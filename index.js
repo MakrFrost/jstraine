@@ -586,3 +586,5 @@
 //   total += value;
 // }
 // console.log(total);
+
+//TODO: рест и деструктуризацию сделать
