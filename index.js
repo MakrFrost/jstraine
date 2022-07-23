@@ -603,6 +603,7 @@ const words = [
   "жмых",
 ];
 const word = words[Math.floor(Math.random() * words.length)];
+const tries = word.length;
 
 const answerArray = [];
 for (let i = 0; i < word.length; i += 1) {
