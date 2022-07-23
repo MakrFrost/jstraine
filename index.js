@@ -587,4 +587,29 @@
 // }
 // console.log(total);
 
-//рест и деструктуризацию сделать
+//!рест и деструктуризацию сделать
+
+//! Виселица (игра)
+const words = [
+  "программа",
+  "макака",
+  "оладушек",
+  "спринт",
+  "лопата",
+  "гриф",
+  "баня",
+  "оружие",
+  "колодец",
+  "жмых",
+];
+const randomWords = [Math.floor(Math.random() * words.length)];
+
+const answerArray = [];
+for (let i = 0; i < words.length; i += 1) {
+  answerArray[i] = "_";
+}
+
+let remainingLetters = words.length;
+while (remainingLetters > 0) {}
+
+console.log(answerArray);
