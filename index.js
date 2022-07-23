@@ -602,14 +602,29 @@ const words = [
   "колодец",
   "жмых",
 ];
-const randomWords = [Math.floor(Math.random() * words.length)];
+const word = words[Math.floor(Math.random() * words.length)];
 
 const answerArray = [];
-for (let i = 0; i < words.length; i += 1) {
+for (let i = 0; i < word.length; i += 1) {
   answerArray[i] = "_";
 }
 
-let remainingLetters = words.length;
-while (remainingLetters > 0) {}
-
-console.log(answerArray);
+let remainingLetters = word.length;
+while (remainingLetters > 0) {
+  alert(answerArray.join(" "));
+  let guess = prompt("Угадайте букву или нажмите 'Отмена' для выхода из игры!");
+  if (guess === null) {
+    break;
+  } else if (guess.length !== 1) {
+    alert("Пожалуйста, введите одну букву!");
+  } else {
+    for (let k = 0; k < word.length; k += 1) {
+      if (word[k] === guess) {
+        answerArray[k] = guess;
+        remainingLetters--;
+      }
+    }
+  }
+}
+alert(answerArray.join(" "));
+alert("Отлично! Было загадано слово:" + " " + word);
