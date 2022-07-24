@@ -590,42 +590,79 @@
 //!рест и деструктуризацию сделать
 
 //! Виселица (игра)
-const words = [
-  "программа",
-  "макака",
-  "оладушек",
-  "спринт",
-  "лопата",
-  "гриф",
-  "баня",
-  "оружие",
-  "колодец",
-  "жмых",
-];
-const word = words[Math.floor(Math.random() * words.length)];
-const tries = word.length;
+// const words = [
+//   "программа",
+//   "макака",
+//   "оладушек",
+//   "спринт",
+//   "лопата",
+//   "гриф",
+//   "баня",
+//   "оружие",
+//   "колодец",
+//   "жмых",
+// ];
+// const word = words[Math.floor(Math.random() * words.length)];
+// const tries = word.length;
 
-const answerArray = [];
-for (let i = 0; i < word.length; i += 1) {
-  answerArray[i] = "_";
-}
+// const answerArray = [];
+// for (let i = 0; i < word.length; i += 1) {
+//   answerArray[i] = "_";
+// }
 
-let remainingLetters = word.length;
-while (remainingLetters > 0) {
-  alert(answerArray.join(" "));
-  let guess = prompt("Угадайте букву или нажмите 'Отмена' для выхода из игры!");
-  if (guess === null) {
-    break;
-  } else if (guess.length !== 1) {
-    alert("Пожалуйста, введите одну букву!");
-  } else {
-    for (let k = 0; k < word.length; k += 1) {
-      if (word[k] === guess) {
-        answerArray[k] = guess;
-        remainingLetters--;
-      }
-    }
-  }
-}
-alert(answerArray.join(" "));
-alert("Отлично! Было загадано слово:" + " " + word);
+// let remainingLetters = word.length;
+// while (remainingLetters > 0) {
+//   alert(answerArray.join(" "));
+//   let guess = prompt("Угадайте букву или нажмите 'Отмена' для выхода из игры!");
+//   if (guess === null) {
+//     break;
+//   } else if (guess.length !== 1) {
+//     alert("Пожалуйста, введите одну букву!");
+//   } else {
+//     for (let k = 0; k < word.length; k += 1) {
+//       if (word[k] === guess) {
+//         answerArray[k] = guess;
+//         remainingLetters--;
+//       }
+//     }
+//   }
+// }
+// alert(answerArray.join(" "));
+// alert("Отлично! Было загадано слово:" + " " + word);
+
+// function processCall(recipient, onAvailable, onNotAvailable) {
+//   // Імітуємо доступність абонента випадковим числом
+//   const isRecipientAvailable = Math.random() > 0.5;
+
+//   if (!isRecipientAvailable) {
+//     onNotAvailable(recipient);
+//     return;
+//   }
+
+//   onAvailable(recipient);
+// }
+
+// function takeCall(name) {
+//   console.log(`З'єднуємо з ${name}, очікуйте...`);
+//   // Логіка прийняття дзвінка
+// }
+
+// function activateAnsweringMachine(name) {
+//   console.log(`Абонент ${name} недоступний, залиште повідомлення.`);
+//   // Логіка активації автовідповідача
+// }
+
+// function leaveHoloMessage(name) {
+//   console.log(`Абонент ${name} недоступний, записуємо голограму.`);
+//   // Логіка запису голограми
+// }
+
+// processCall("Манго", takeCall, activateAnsweringMachine);
+// processCall("Полі", takeCall, leaveHoloMessage);
+
+const numbers = [5, 10, 15, 20, 25];
+
+// Метод перебирання forEach
+numbers.forEach(function (number, index) {
+  console.log(`Індекс ${index}, значення ${number}`);
+});
