@@ -660,9 +660,9 @@
 // processCall("Манго", takeCall, activateAnsweringMachine);
 // processCall("Полі", takeCall, leaveHoloMessage);
 
-const numbers = [5, 10, 15, 20, 25];
+// const numbers = [5, 10, 15, 20, 25];
 
-// Метод перебирання forEach
-numbers.forEach(function (number, index) {
-  console.log(`Індекс ${index}, значення ${number}`);
-});
+// // Метод перебирання forEach
+// numbers.forEach(function (number, index) {
+//   console.log(`Індекс ${index}, значення ${number}`);
+// });
