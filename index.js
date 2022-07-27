@@ -666,3 +666,15 @@
 // numbers.forEach(function (number, index) {
 //   console.log(`Індекс ${index}, значення ${number}`);
 // });
+
+function filterArray(numbers, value) {
+  const filteredNumbers = [];
+
+  numbers.forEach(function (current) {
+    if (current > value) {
+      filteredNumbers.push(current);
+      console.log( numbers.forEach(function (current));
+    }
+  });
+  return filteredNumbers;
+}
