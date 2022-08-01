@@ -38,3 +38,35 @@ body {
 
   background-color: pink;
 }
+
+/* !!! */
+.button {
+  width: 190px;
+  height: 55px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid white;
+  border-radius: 0;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #425b78;
+  transition: all 250ms ease-in-out;
+}
+.button:hover {
+  background-color: #1b263b;
+}
+
+.svg {
+  fill: #fff;
+  padding: 10px;
+  border-radius: 50%;
+
+  transition: all 250ms ease-in-out;
+}
+.button:hover .svg {
+  background-color: #425b78;
+}
