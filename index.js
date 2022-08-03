@@ -667,41 +667,88 @@
 //   console.log(`Індекс ${index}, значення ${number}`);
 // });
 
-const tweets = [
-  { id: "000", likes: 5, tags: ["js", "nodejs"] },
-  { id: "001", likes: 2, tags: ["html", "css"] },
-  { id: "002", likes: 17, tags: ["html", "js", "nodejs"] },
-  { id: "003", likes: 8, tags: ["css", "react"] },
-  { id: "004", likes: 0, tags: ["js", "nodejs", "react"] },
-];
+// const tweets = [
+//   { id: "000", likes: 5, tags: ["js", "nodejs"] },
+//   { id: "001", likes: 2, tags: ["html", "css"] },
+//   { id: "002", likes: 17, tags: ["html", "js", "nodejs"] },
+//   { id: "003", likes: 8, tags: ["css", "react"] },
+//   { id: "004", likes: 0, tags: ["js", "nodejs", "react"] },
+// ];
 
-const getTags = (tweets) =>
-  tweets.reduce((allTags, tweet) => {
-    allTags.push(...tweet.tags);
+// const getTags = (tweets) =>
+//   tweets.reduce((allTags, tweet) => {
+//     allTags.push(...tweet.tags);
 
-    return allTags;
-  }, []);
+//     return allTags;
+//   }, []);
 
-const tags = getTags(tweets);
+// const tags = getTags(tweets);
 
-// Винесемо callback-функцію окремо, а в reducе передамо посилання на неї.
-// Це стандартна практика, якщо callback-функція досить велика.
+// // Винесемо callback-функцію окремо, а в reducе передамо посилання на неї.
+// // Це стандартна практика, якщо callback-функція досить велика.
 
-// Якщо в об'єкті-акумуляторі acc відсутня своя властивість з ключем tag,
-// то створюємо її і записуємо їй значення 0.
-// В іншому випадку збільшуємо значення на 1.
-const getTagStats = (acc, tag) => {
-  if (!acc.hasOwnProperty(tag)) {
-    acc[tag] = 0;
+// // Якщо в об'єкті-акумуляторі acc відсутня своя властивість з ключем tag,
+// // то створюємо її і записуємо їй значення 0.
+// // В іншому випадку збільшуємо значення на 1.
+// const getTagStats = (acc, tag) => {
+//   if (!acc.hasOwnProperty(tag)) {
+//     acc[tag] = 0;
+//   }
+
+//   acc[tag] += 1;
+
+//   return acc;
+// };
+
+// // Початкове значення акумулятора - це порожній об'єкт {}
+// const countTags = (tags) => tags.reduce(getTagStats, {});
+
+// const tagCount = countTags(tags);
+// console.log(tagCount);
+
+const prod1 = 1;
+const prod2 = 2;
+const prod3 = 3;
+
+const action = Math.floor(Math.random() * 3 + 1);
+console.log(action);
+
+function sale() {
+  if (action % 3 === 0) {
+    if (
+      prod1 < prod2 &&
+      prod1 < prod3 &&
+      prod2 < prod1 &&
+      prod2 < prod3 &&
+      prod3 < prod1 &&
+      prod3 < prod2
+    ) {
+      return `Поздравляем! У нас акция, вы получаете третий товар в подарок!`;
+    }
+  } else if (action !== 3) {
+    return `Пакет нужен? С вас сумма: ${prod1 + prod2}`;
   }
+}
 
-  acc[tag] += 1;
+console.log(sale(prod1));
+console.log(sale(prod1, prod2));
+console.log(sale(prod1, prod2, prod3));
 
-  return acc;
-};
+// prod1 < prod2 &&
+// prod1 < prod3 &&
+// prod2 < prod3 &&
+// prod3 < prod2 &&
+// prod3 < prod1
 
-// Початкове значення акумулятора - це порожній об'єкт {}
-const countTags = (tags) => tags.reduce(getTagStats, {});
+// function sale() {
+//   if (action === 3) {
+//     return `Поздравляем! У нас акция, вы получаете третий товар в подарок!`;
+//   }
+//   if (action !== 3) {
+//     return;
+//   }
+// }
 
-const tagCount = countTags(tags);
-console.log(tagCount);
+// Math.floor(Math.random() * 100 - 12);
+// Math.floor(Math.random() * 100 + 15);
+// Math.floor(Math.random() * 100 + 8);
