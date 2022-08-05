@@ -631,7 +631,7 @@
 // alert("Отлично! Было загадано слово:" + " " + word);
 
 // function processCall(recipient, onAvailable, onNotAvailable) {
-//   // Імітуємо доступність абонента випадковим числом
+  // Імітуємо доступність абонента випадковим числом
 //   const isRecipientAvailable = Math.random() > 0.5;
 
 //   if (!isRecipientAvailable) {
@@ -643,13 +643,13 @@
 // }
 
 // function takeCall(name) {
-//   console.log(`З'єднуємо з ${name}, очікуйте...`);
-//   // Логіка прийняття дзвінка
+// console.log(`З'єднуємо з ${name}, очікуйте...`);
+// Логіка прийняття дзвінка
 // }
 
 // function activateAnsweringMachine(name) {
 //   console.log(`Абонент ${name} недоступний, залиште повідомлення.`);
-//   // Логіка активації автовідповідача
+// Логіка активації автовідповідача
 // }
 
 // function leaveHoloMessage(name) {
