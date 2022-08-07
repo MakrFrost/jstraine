@@ -631,7 +631,7 @@
 // alert("Отлично! Было загадано слово:" + " " + word);
 
 // function processCall(recipient, onAvailable, onNotAvailable) {
-  // Імітуємо доступність абонента випадковим числом
+// Імітуємо доступність абонента випадковим числом
 //   const isRecipientAvailable = Math.random() > 0.5;
 
 //   if (!isRecipientAvailable) {
@@ -706,33 +706,33 @@
 // const tagCount = countTags(tags);
 // console.log(tagCount);
 
-const prod1 = 1;
-const prod2 = 2;
-const prod3 = 3;
+// const prod1 = 1;
+// const prod2 = 2;
+// const prod3 = 3;
 
-const action = Math.floor(Math.random() * 3 + 1);
-console.log(action);
+// const action = Math.floor(Math.random() * 3 + 1);
+// console.log(action);
 
-function sale() {
-  if (action % 3 === 0) {
-    if (
-      prod1 < prod2 &&
-      prod1 < prod3 &&
-      prod2 < prod1 &&
-      prod2 < prod3 &&
-      prod3 < prod1 &&
-      prod3 < prod2
-    ) {
-      return `Поздравляем! У нас акция, вы получаете третий товар в подарок!`;
-    }
-  } else if (action % 2 === 0) {
-    return `Пакет нужен? С вас сумма: ${prod1 + prod2}`;
-  }
-}
+// function sale() {
+//   if (action % 3 === 0) {
+//     if (
+//       prod1 < prod2 &&
+//       prod1 < prod3 &&
+//       prod2 < prod1 &&
+//       prod2 < prod3 &&
+//       prod3 < prod1 &&
+//       prod3 < prod2
+//     ) {
+//       return `Поздравляем! У нас акция, вы получаете третий товар в подарок!`;
+//     }
+//   } else if (action % 2 === 0) {
+//     return `Пакет нужен? С вас сумма: ${prod1 + prod2}`;
+//   }
+// }
 
-console.log(sale(prod1));
-console.log(sale(prod1, prod2));
-console.log(sale(prod1, prod2, prod3));
+// console.log(sale(prod1));
+// console.log(sale(prod1, prod2));
+// console.log(sale(prod1, prod2, prod3));
 
 // prod1 < prod2 &&
 // prod1 < prod3 &&
@@ -752,3 +752,21 @@ console.log(sale(prod1, prod2, prod3));
 // Math.floor(Math.random() * 100 - 12);
 // Math.floor(Math.random() * 100 + 15);
 // Math.floor(Math.random() * 100 + 8);
+
+const listWithId = document.querySelector("#menu");
+listWithId.style.textTransform = "uppercase";
+listWithId.style.fontSize = "24px";
+console.log(listWithId);
+
+const listWithClass = document.querySelector(".menu");
+console.log(listWithClass);
+
+const menuItemsByTagName = document.querySelectorAll("li");
+console.log(menuItemsByTagName);
+
+const menuItemsByClass = document.querySelectorAll(".menu-item");
+console.log(menuItemsByClass);
+
+const firstMenuItem = document.querySelector(".menu-item");
+firstMenuItem.style.color = "tomato";
+console.log(firstMenuItem);
